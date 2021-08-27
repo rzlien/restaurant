@@ -1,0 +1,37 @@
+body {
+  font-size: 1rem;
+  margin: 0;
+}
+
+#main-content-container {
+/*   background-color: blue; */
+  margin: 0rem 2rem;
+}
+
+
+/* Navbar */
+.nav-container {
+  background-color: darkgrey;
+  position: sticky;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.nav-container a {
+  text-decoration: none; 
+  color: white;
+  padding: 0rem 4rem;
+}
+
+.nav-container a:hover {
+  background-color: red;
+}
+
+
+/* Menu */
+.item-price {
+  font-style: italic;
+  font-size: 0.85em;
+}
