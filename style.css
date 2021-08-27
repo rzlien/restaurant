@@ -6,6 +6,7 @@ body {
 #main-content-container {
 /*   background-color: blue; */
   margin: 0rem 2rem;
+  text-align: center;
 }
 
 
@@ -34,4 +35,29 @@ body {
 .item-price {
   font-style: italic;
   font-size: 0.85em;
+}
+
+.menu-item {
+  border: 3px solid black;
+}
+
+.menu-item img {
+  border: 3px solid blue;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Form */
+form {
+  text-align: left;
+}
+
+.form-item {
+  margin-bottom: 0.6rem;
+}
+
+textarea {
+  width: 80%;
+  height: 5rem;
 }
